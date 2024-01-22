@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import style from "@/app/(afterLogin)/layout.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import ZLogo from "@/../public/zlogo.png";
+import ZLogo from "../../../public/zlogo.png";
 import NavMenu from "@/app/(afterLogin)/_component/NavMenu";
 import LogoutButton from "@/app/(afterLogin)/_component/LogoutButton";
 import TrendSection from "@/app/(afterLogin)/_component/TrendSection";
