@@ -11,7 +11,7 @@ export default function Home() {
       <TabProvider>
         <Tab />
         <PostForm />
-        <Post />
+        <Post></Post>
       </TabProvider>
     </>
   );

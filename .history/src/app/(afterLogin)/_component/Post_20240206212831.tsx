@@ -1,3 +1,3 @@
 export default function Post() {
-  return <>포스트</>;
+  return 포스트;
 }
