@@ -7,7 +7,6 @@ import NavMenu from "@/app/(afterLogin)/_component/NavMenu";
 import LogoutButton from "@/app/(afterLogin)/_component/LogoutButton";
 import TrendSection from "@/app/(afterLogin)/_component/TrendSection";
 import FollowRecommend from "@/app/(afterLogin)/_component/FollowRecommend";
-import RightSearchZone from "./_component/RightSearchZone";
 
 type Props = { children: ReactNode; modal: ReactNode };
 
@@ -38,7 +37,6 @@ export default function AfterLoginLayout({ children, modal }: Props) {
         <div className={style.rightSectionInner}>
           <main className={style.main}>{children}</main>
           <section className={style.rightSection}>
-            <RightSearchZone />
             <TrendSection />
             <div className={style.followRecommend}>
               <h3>팔로우 추천</h3>
