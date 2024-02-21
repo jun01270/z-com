@@ -4,7 +4,7 @@ import BackButton from "@/app/(afterLogin)/_component/BackButton";
 export default function Profile() {
   const user = {
     id: "zerohch0",
-    nickname: "제로초",
+    nickname: "김성준",
     image: "/5Udwvqim.jpg",
   };
 
