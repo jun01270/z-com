@@ -17,7 +17,11 @@ export default function Main() {
         </Link>
         <h3>이미 트위터에 가입하셨나요?</h3>
         <Link href="/login" className={styles.login}>
-          로그인{" "}
+          로그인
+        </Link>
+        <br />
+        <Link href="/home" className={styles.signup}>
+          피드 둘러보기
         </Link>
       </div>
     </>
