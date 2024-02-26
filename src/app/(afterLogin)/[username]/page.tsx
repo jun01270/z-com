@@ -3,7 +3,7 @@ import Post from "@/app/(afterLogin)/_component/Post";
 import BackButton from "@/app/(afterLogin)/_component/BackButton";
 export default function Profile() {
   const user = {
-    id: "zerohch0",
+    id: "jun01270",
     nickname: "김성준",
     image: "/5Udwvqim.jpg",
   };
